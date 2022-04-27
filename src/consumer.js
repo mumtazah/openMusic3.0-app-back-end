@@ -17,6 +17,7 @@ const init = async () => {
   });
 
   channel.consume('export:playlists', listener.listen, { noAck: true });
+  console.log('Sedang berjalan');
 };
 
 init();
