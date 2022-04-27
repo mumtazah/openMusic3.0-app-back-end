@@ -44,7 +44,7 @@ const routes = (handler) => [
     path: '/upload/{param*}',
     handler: {
       directory: {
-        path: path.resolve(__dirname, '../upload/file'),
+        path: path.resolve(__dirname, '../upload'),
       },
     },
   },
